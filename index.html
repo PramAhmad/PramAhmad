@@ -51,13 +51,13 @@
               <div class="bg-white rounded-lg shadow-lg p-5 md:p-20 mx-2">
                 <div class="text-center">
                 <!-- gif animation -->
-                  <h2 class="text-3xl font-bold text-gray-800">
+                  <h2 class="text-3xl font-bold text-gray-800 flex justify-center items-center m-auto">
                     Happy Birthday Sayang
                   </h2>
                   <img
                     src="img/ompangie-kakaotalk.gif"
                     alt="Image 3"
-                    class="w-[250px] h-[250px]"
+                    class="w-[200px] h-[200px]"
                   />
                  
     
@@ -212,7 +212,7 @@
               <img
                 src="img/ala1.jpeg"
                 alt="Image 1"
-                class="w-[400px] h-[400px]"
+                class="w-[350px] h-[350px]"
               />
             </div>
           </div>
@@ -223,7 +223,7 @@
               <img
                 src="img/ala2.jpg"
                 alt="Image 2"
-                class="w-[400px] h-[400px]"
+                class="w-[350px] h-[350px]"
               />
             </div>
           </div>
@@ -232,7 +232,7 @@
               <img
                 src="img/ala3.jpg"
                 alt="Image 3"
-                class="w-[400px] h-[400px]"
+                class="w-[350px] h-[350px]"
               />
             </div>
           </div>
@@ -242,7 +242,7 @@
               <img
                 src="img/ala4.jpeg"
                 alt="Image 3"
-                class="w-[400px] h-[400px]"
+                class="w-[350px] h-[350px]"
               />
             </div>
           </div>
@@ -252,7 +252,7 @@
               <img
                 src="img/ala5.jpg"
                 alt="Image 3"
-                class="w-[400px] h-[400px]"
+                class="w-[350px] h-[350px]"
               />
             </div>
           </div>
@@ -263,7 +263,7 @@
               <img
                 src="img/ala6.jpeg"
                 alt="Image 3"
-                class="w-[400px] h-[400px]"
+                class="w-[350px] h-[350px]"
               />
             </div>
           </div>
@@ -273,7 +273,7 @@
               <img
                 src="img/ala7.jpeg"
                 alt="Image 3"
-                class="w-[400px] h-[400px]"
+                class="w-[350px] h-[350px]"
               />
             </div>
           </div>
@@ -283,7 +283,7 @@
               <img
                 src="img/ala8.jpg"
                 alt="Image 3"
-                class="w-[400px] h-[400px]"
+                class="w-[350px] h-[350px]"
               />
             </div>
           </div>
@@ -325,27 +325,22 @@
     </div>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script>
-    var swiper = new Swiper(".swiper-container", {
-      effect: "cube",
-      loop: true,
 
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-      //  auto navigate
-      autoplay: {
-        delay: 10000,
-        disableOnInteraction: false,
-      },
-    });
-  </script>
   <!-- Greensock -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
   <!-- Sweetalert -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script>
+        var swiper = new Swiper(".swiper-container", {
+      effect: "cube",
+      loop: true,
+
+     
+      //  auto navigate
+      autoplay: {
+        delay: 10000,
+      },
+    });
     document.addEventListener("DOMContentLoaded", function () {
       const giftBox = document.getElementById("giftBox");
       const swiperContainer = document.getElementById("content");
