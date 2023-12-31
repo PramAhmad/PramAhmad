@@ -7,7 +7,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  max-height: full;
   margin: 0;
 }
 canvas {
@@ -18,7 +19,7 @@ canvas {
   position: absolute;
   
   width: 85%; 
-  height: 70%; 
+  height: 90%; 
 }
 
 .img-fit{
