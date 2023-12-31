@@ -9,7 +9,7 @@ body {
   align-items: center;
   min-height: 100vh;
   background-color: #0000;
-  max-height: 100%;
+
   margin: 0;
 }
 canvas {
