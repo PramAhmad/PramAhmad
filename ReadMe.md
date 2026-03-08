@@ -1,5 +1,5 @@
 # 💫  Me:
-Hello there, I'm Pram 👋<br>I'm a software engineer<br>Interested in backend , frontend & mobile.<br>I use .vue & .php daily and .go for hobby project.<br>my life full colors with tailwind<br>
+Hello there, I'm Pram 👋<br>I'm a software engineer<br>Interested in backend and system programming.<br>I use .c & .go daily <br>i do code for fun, but something i want something meaningful<br>
 
 
 
