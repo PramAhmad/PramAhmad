@@ -1,5 +1,5 @@
 # 💫  Me:
-Hello there, I'm Pram 👋<br>I'm a software engineer<br>Interested in backend and system programming.<br>I use .c & .go daily <br>i do code for fun, but something i want something meaningful<br>
+Hello there, I'm Pram 👋<br>I'm a software engineer<br>Interested in backend and system programming.<br>I use .c & .go daily <br>I do code for fun, but something i want something meaningful<br>
 
 
 
